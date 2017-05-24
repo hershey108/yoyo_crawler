@@ -12,3 +12,7 @@ preferable to cancel execution after a certain time or depth of links processed.
  
 Also it would be possible to multi-thread the crawling when we have large sets of links to follow up on, though we risk
 the potential of duplicating crawls due to race conditions when checking our current state of the sitemap.
+
+# Acknowledgment
+Beautiful Soup library used and distributed according to the MIT license. Credit to Leonard Richardson.
+https://www.crummy.com/software/BeautifulSoup/
